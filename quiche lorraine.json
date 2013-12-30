@@ -1,0 +1,245 @@
+{
+	"title":	"Quiche lorraine",
+	"meta":	{
+			"prep-time":	"15",
+			"prep-time-unit":	"min",
+			"cooking-time":	"30",
+			"cooking-time-unit":	"min",
+			"budget":	"pas cher",
+			"difficulty":	"très facile",
+			"servings":	"6",
+			"comments":	[
+						"Se congèle facilement"
+			]
+	},
+	"ingredients":	[
+		{
+			"qtt": 1,	"unit": "n/a",
+			"ingredient":	"rouleau de pate brisée",
+			"label": "pate-brisée"
+		},
+		{
+			"qtt": 3,	"unit": "n/a",
+			"ingredient":	"oeuf",
+			"label": "oeuf"
+		},
+		{
+			"qtt": 200,	"unit": "g",
+			"ingredient":	"lardons fumés",
+			"label": "lardons"
+		},
+		{
+			"qtt": 25,	"unit": "cl",
+			"ingredient":	"crème fraiche",
+			"label": "crème-fraîche"
+		},
+		{
+			"qtt": 20,	"unit": "cl",
+			"ingredient":	"lait",
+			"label": "lait"
+		},
+		{
+			"qtt": 150,	"unit": "g",
+			"ingredient":	"gruyère rapé",
+			"label": "gruyère"
+		},
+		{
+			"qtt": 1,	"unit": "pincée",
+			"ingredient":	"noix de muscade rapée",
+			"label": "noix-de-muscade"
+		},
+		{
+			"qtt": 1,	"unit": "noix",
+			"ingredient":	"beurre",
+			"label": "beurre",
+			"comments": ["pour le moule"]
+		},
+		{
+			"qtt": 0,	"unit": "n/a",
+			"ingredient":	"sel",
+			"label": "sel"
+		},
+		{
+			"qtt": 0,	"unit": "n/a",
+			"ingredient":	"poivre",
+			"label": "poivre"
+		}
+		
+	],
+	"preparation":	[
+		[
+			{
+				"type":	"text",
+				"content": "Étalez la "
+			},
+			{
+				"type":	"annotation",
+				"content": "pate",
+				"label":	"pate-brisée",
+				"class":	"ingredient"
+			},
+			{
+				"type":	"text",
+				"content": " dans un "
+			},
+			{
+				"type":	"annotation",
+				"content": "moule",
+				"label":	"moule",
+				"class":	"ustensile"
+			},
+			{
+				"type":	"text",
+				"content": " "
+			},
+			{
+				"type":	"annotation",
+				"content": "beurré",
+				"label":	"beurre",
+				"class":	"ingredient"
+			},
+			{
+				"type":	"text",
+				"content": ". Piquez-la à l'aide d'une fourchette. Préchauffez le "
+			},
+			{
+				"type":	"annotation",
+				"content": "four",
+				"label":	"four",
+				"class":	"ustensile"
+			},
+			{
+				"type":	"text",
+				"content": " th 7 (210 °C)."
+			}
+		],
+		[
+			{
+				"type":	"text",
+				"content": "Cassez les "
+			},
+			{
+				"type":	"annotation",
+				"content": "oeufs",
+				"label":	"oeuf",
+				"class":	"ingredient"
+			},
+			{
+				"type":	"text",
+				"content": " dans un "
+			},
+			{
+				"type":	"annotation",
+				"content": "saladier",
+				"label":	"saladier",
+				"class":	"ustensile"
+			},
+			{
+				"type":	"text",
+				"content": " et battez-les rapidement. Ajoutez les "
+			},
+			{
+				"type":	"annotation",
+				"content": "lardons",
+				"label":	"lardons",
+				"class":	"ingredient"
+			},
+			{
+				"type":	"text",
+				"content": ", la "
+			},
+			{
+				"type":	"annotation",
+				"content": "crème fraiche",
+				"label":	"crème-fraîche",
+				"class":	"ingredient"
+			},
+			{
+				"type":	"text",
+				"content": ", la "
+			},
+			{
+				"type":	"annotation",
+				"content": "noix de muscade",
+				"label":	"noix-de-muscade",
+				"class":	"ingredient"
+			},
+			{
+				"type":	"text",
+				"content": " et du "
+			},
+			{
+				"type":	"annotation",
+				"content": "poivre",
+				"label":	"poivre",
+				"class":	"ingredient"
+			},
+			{
+				"type":	"text",
+				"content": ". Battez à l'aide d'un "
+			},
+			{
+				"type":	"annotation",
+				"content": "fouet",
+				"label":	"fouet",
+				"class":	"ustensile"
+			},
+			{
+				"type":	"text",
+				"content": ". "
+			},
+			{
+				"type":	"annotation",
+				"content": "Salez",
+				"label":	"sel",
+				"class":	"ingredient"
+			},
+			{
+				"type":	"text",
+				"content": " très légèrement."
+			}
+		],
+		[
+			{
+				"type":	"text",
+				"content": "Ajoutez le "
+			},
+			{
+				"type":	"annotation",
+				"content": "gruyère rapé",
+				"label":	"gruyère",
+				"class":	"ingredient"
+			},
+			{
+				"type":	"text",
+				"content": " à la préparation, mélangez et recouvrez la "
+			},
+			{
+				"type":	"annotation",
+				"content": "pate",
+				"label":	"pate-brisée",
+				"class":	"ingredient"
+			},
+			{
+				"type":	"text",
+				"content": " de ce mélange."
+			}
+		],
+		[
+			{
+				"type":	"text",
+				"content": "Enfournez 30 minutes. Sortez la quiche du "
+			},
+			{
+				"type":	"annotation",
+				"content": "four",
+				"label":	"four",
+				"class":	"ustensile"
+			},
+			{
+				"type":	"text",
+				"content": " et laissez tiédir 5 ou 10 minutes avant de servir."
+			}
+		]
+	]
+}

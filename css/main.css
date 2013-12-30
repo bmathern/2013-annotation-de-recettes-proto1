@@ -1,0 +1,52 @@
+li.prep-time:before {
+	content: "Preparation time: ";
+}
+li.quantité:before {
+	content: "For ";
+}
+li.quantité:after {
+	content: " people";
+}
+li.cooking-time:before {
+	content: "Cooking time: ";
+}
+li.difficulté:before {
+	content: "Difficulty: ";
+}
+li.budget:before {
+	content: "Budget: ";
+}
+.colonne {
+	width: 400px;
+	float: left;
+}
+
+.ingredient-hover {
+	background: lightpink;
+}
+.ustensile-hover {
+	background: lightgreen;
+}
+
+.ingredient.action:hover {
+	background: pink;
+}
+.ingredient:hover {
+	background: lightpink;
+}
+.ustensile:hover {
+	background: lightgreen;
+}
+.step:hover {
+	background: lightgrey;
+}
+
+.ingredient:hover:after {
+	content: url("../images/icons/pencil.png") url("../images/icons/comment_add.png");
+}
+.step:hover:after {
+	content: " " url("../images/icons/pencil.png") url("../images/icons/comment_add.png");
+}
+.ustensile:hover:after {
+	content: url("../images/icons/pencil.png") url("../images/icons/comment_add.png");
+}

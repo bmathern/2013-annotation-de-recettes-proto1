@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>Proto pour tester des idées de visualisation de recette</title>
+
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="javascript/main-input.js"></script>
+<script type="text/javascript" src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.js"></script>
+<script type="text/javascript" src="http://twitter.github.com/hogan.js/builds/2.0.0/hogan-2.0.0.js"></script>
+
+
+</head>
+<body>
+
+<div id="trace1svg"></div>
+<div id="obselinspector"></div>
+
+<div id="recipe">
+<form id="recipe_form">
+<h2>Title: <input type="text" id="title" name="title" size="60ex"/></h2>
+<div class="recette">
+	<div class="colonne">
+	<ul>
+		<li class="prep-time"><input type="text" id="prep-time" name="prep-time" size="2"/> min</li>
+		<li class="cooking-time"><input type="text" id="cooking-time" name="cooking-time" size="2"/> min</li>
+		<li class="difficulté"><input type="text" id="difficulty" name="difficulty"/></li>
+		<li class="budget"><input type="text" id="budget" name="budget"/></li>
+		<li class="quantité"><input type="text" id="servings" name="servings" size="2"/></li>
+	</ul>
+	<h3>Ingredients</h3>
+	<ul id="ingredient-list">
+	</ul>
+	<ul>
+		<li><input type="text" name="qtt" id="qtt_input" size="2"/><input type="text" name="unit" id="unit_input" size="2"/> of <input type="text" name="ingredient" id="ingredient_input"/><button id="add_ingredient">+</button></li>
+	</ul>
+	</div>
+	<div class="colonne">
+	<h3>Preparation</h3>
+	<ol class="préparation" id="steps">
+	</ol>
+	<p><input type="text" id="prep" name="prep" size="30"/><button id="add_step">+</button></p>
+	</div>
+</div>
+<button id="save">save</button>
+</form>
+</div>
+
+
+
+</body>
+</html>
